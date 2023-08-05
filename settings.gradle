@@ -1,0 +1,4 @@
+rootProject.name = 'BridgingAnalyzer-Reborn'
+include 'BridgingAnalyzer-Plugin'
+include 'BridgingAnalyzer-API'
+include 'BridgingAnalyzer-NMS-v1_8_R3'

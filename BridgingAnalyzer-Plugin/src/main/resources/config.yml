@@ -1,0 +1,130 @@
+# Is players hungry.
+no-hunger: true
+
+# Should clear player's inventory.
+clear-inventory: true
+
+# Whether to break the cover when trigger blocks was covered.
+# Do not set the delay too short or it will make ghost blocks.
+anti-cover: true
+anti-cover-delay: 10
+
+# When the player was died or ended, the delay of breaking task start.
+break-delay: 10
+# The break period is delay per block breaking.
+break-min-period: 1
+break-max-period: 3
+
+# The check point block material data.
+check-block:
+  type: 133
+  data: 0
+# No damage ticks when player checked.
+check-no-damage-ticks: 20
+# The title for checked animation data
+check-message-fade-in: 5
+check-message-stay: 10
+check-message-fade-out: 5
+# The particle data being played when the check point triggered.
+check-particle:
+  effect: CLOUD
+  radius: 1.0
+  count: 20
+# The sound data being played when the check point triggered.
+check-sound:
+  type: ORB_PICKUP
+  volume: 1.0
+  pitch: 1.0
+
+# The ending block material data.
+end-block:
+  type: 152
+  data: 0
+# No damage ticks when player ended.
+end-no-damage-ticks: 20
+# The particle data being played when the ending triggered.
+end-particle:
+  effect: WITCH_MAGIC
+  radius: 1.0
+  count: 20
+# The sound data being played when the ending triggered.
+end-sound:
+  type: LEVEL_UP
+  volume: 1.0
+  pitch: 1.0
+
+# The knockback block material data.
+kb-block:
+  type: 103
+  data: 0
+# No damage ticks when player was knockbacked.
+kb-no-damage-ticks: 20
+# The trigger delay of the knockback block.
+kb-delay: 7
+
+# The spawn block material data.
+spawn-block:
+  type: 22
+  data: 0
+# The player teleport-processing tick.
+spawn-processing-ticks: 40
+# No damage ticks when player teleporting.
+spawn-no-damage-ticks: 40
+# The title for spawning animation data
+spawn-message-fade-in: 5
+spawn-message-stay: 25
+spawn-message-fade-out: 5
+# The particle data being played when the spawn point triggered.
+spawn-particle:
+  effect: FIREWORKS_SPARK
+  radius: 1.0
+  count: 20
+# The sound data being played when the spawn point triggered.
+spawn-sound:
+  type: ORB_PICKUP
+  volume: 1.0
+  pitch: 1.0
+
+# The boost block material data.
+boost-block:
+  type: 147
+  data: 0
+# No damage ticks when player boosted.
+boost-no-damage-ticks: 20
+# The boosting time.
+boost-duration: 100
+# The boosting level.
+boost-amplifier: 2
+
+# The lift block material data.
+lift-block:
+  type: 138
+  data: 0
+# No damage ticks when player lifting.
+lift-no-damage-ticks: 20
+# The sound data being played when the lift triggered.
+lift-sound:
+  type: ENDERMAN_TELEPORT
+  volume: 1.0
+  pitch: 1.0
+# The velocity of knockback
+velocity-x: 1.25
+velocity-y: 0.45
+
+# The block material data when players ended placed blocks.
+victory-block:
+  type: 169
+  data: 0
+
+# The default value of PvP state.
+pvp-default: false
+
+# The title for PvP warning animation data
+pvp-warn-message-fade-in: 10
+pvp-warn-message-stay: 20
+pvp-warn-message-fade-out: 10
+
+# The title for damage animation data
+damage-message-fade-in: 10
+damage-message-stay: 20
+damage-message-fade-out: 10
