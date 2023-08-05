@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+allprojects {
+    apply plugin: 'java'
+
+    group 'icu.kevin557.bridginganalyzer'
+    version '1.0.0'
+
+    repositories {
+        mavenLocal()
+    }
+
+    dependencies {
+        implementation group: 'org.spigotmc', name: 'spigot', version: '1.8.8-R0.1-SNAPSHOT'
+    }
+}
+
+task allJar(type: Jar, dependsOn: subprojects.jar) {
+    subprojects.each {subproject ->
+        from subproject.configurations.archives.allArtifacts.files.collect {
+            zipTree(it)
+        }
+    }
+}

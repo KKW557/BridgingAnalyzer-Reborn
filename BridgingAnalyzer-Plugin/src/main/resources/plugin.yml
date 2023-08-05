@@ -1,0 +1,39 @@
+name: BridgingAnalyzer-Reborn
+main: icu.kevin557.bridginganalyzer.BridgingAnalyzer
+version: 1.0.0
+authors: [Kevin_557, SakuraKooi]
+commands:
+  bridge:
+    description: Reloads BridgingAnalyzer-Reborn.
+    usage: /<command>
+    aliases: [b]
+  bskin:
+    description: Choose skin of blocks.
+    usage: /<command>
+  stuck:
+    description: Destory near blocks.
+    usage: /<command>
+    aliases: [bstuck, imstuck]
+  pvp:
+    description: Toggle PvP.
+    usage: /<command>
+    aliases: [bpvp]
+permissions:
+  bridginganalyzer.*:
+    default: op
+  bridginganalyzer.reload:
+    default: op
+  bridginganalyzer.pvp.other:
+    default: op
+  bridginganalyzer.build:
+    default: op
+  bridginganalyzer:
+    default: true
+  bridginganalyzer.clear:
+    default: true
+  bridginganalyzer.stuck:
+    default: true
+  bridginganalyzer.pvp:
+    default: true
+  bridginganalyzer.bskin:
+    default: true
