@@ -64,8 +64,7 @@ public class EditorManager
             }
             catch (Exception e)
             {
-                e.printStackTrace();
-//                Logger.warning("Failed to load the file '%s': %s", file.getName(), e.toString());
+               Logger.warning("Failed to load the file '%s': %s", file.getName(), e.toString());
             }
         }
     }
