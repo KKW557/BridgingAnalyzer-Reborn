@@ -3,11 +3,11 @@ BridgingAnalyzer-Reborn is a Spigot plugin designed for bridging practice in Min
 
 ## FAQ
 
-- Q: What's the different from BridgingAnalyzer?
-  A: The settings and translations of BridgingAnalyzer-Reborn are configurable.
+* Q: What's the different from BridgingAnalyzer?
+* A: The settings and translations of BridgingAnalyzer-Reborn are configurable.
   
-- Q: Why there no CPS display and block skin in BridgingAnalyzer-Reborn.
-  A: These will be provided as affiliated plugins.
+* Q: Why there no CPS display and block skin in BridgingAnalyzer-Reborn.
+* A: These will be provided as affiliated plugins.
 
 
 ## Building
