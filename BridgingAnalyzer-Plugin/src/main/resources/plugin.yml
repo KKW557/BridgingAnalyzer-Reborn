@@ -1,6 +1,6 @@
 name: BridgingAnalyzer-Reborn
 main: icu.kevin557.bridginganalyzer.BridgingAnalyzer
-version: 1.0.0
+version: 1.0.1
 authors: [Kevin_557, SakuraKooi]
 load: POSTWORLD
 commands:
