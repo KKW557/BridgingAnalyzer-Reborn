@@ -80,7 +80,7 @@ public class BridgingAnalyzer extends JavaPlugin
     {
         try
         {
-            Class<?> clazz = Class.forName("icu.kevin557.bridginganalyzer.nms." + Bukkit.getServer().getClass().getPackage().getName().split("\\.")[3] + ".NMSHandler");
+            Class<?> clazz = Class.forName("icu.suc.kevin557.bridginganalyzer.nms." + Bukkit.getServer().getClass().getPackage().getName().split("\\.")[3] + ".NMSHandler");
             if (INMSHandler.class.isAssignableFrom(clazz))
             {
                 nmsHandler = (INMSHandler) clazz.getConstructor().newInstance();
