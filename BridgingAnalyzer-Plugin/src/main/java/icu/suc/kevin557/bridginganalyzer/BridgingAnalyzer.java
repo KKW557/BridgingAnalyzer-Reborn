@@ -53,14 +53,14 @@ public class BridgingAnalyzer extends JavaPlugin
         instance = this;
         settings = new Settings();
 
+        blocks = new HashSet<>();
+        analyzerMap = new HashMap<>();
+
         initNMSHandler();
 
         I18n.init(new File(getDataFolder(), "messages.properties"));
         saveConfigs();
         loadConfigs();
-
-        blocks = new HashSet<>();
-        analyzerMap = new HashMap<>();
 
         registerEvents();
         registerCommands();
