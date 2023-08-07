@@ -5,7 +5,7 @@ plugins {
 allprojects {
     apply plugin: 'java'
 
-    group 'icu.kevin557.bridginganalyzer'
+    group 'icu.suc.kevin557.bridginganalyzer'
     version '1.0.1'
 
     repositories {
