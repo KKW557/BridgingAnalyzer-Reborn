@@ -8,9 +8,6 @@ commands:
     description: Reloads BridgingAnalyzer-Reborn.
     usage: /<command>
     aliases: [b]
-  bskin:
-    description: Choose skin of blocks.
-    usage: /<command>
   stuck:
     description: Destory near blocks.
     usage: /<command>
@@ -35,6 +32,4 @@ permissions:
   bridginganalyzer.stuck:
     default: true
   bridginganalyzer.pvp:
-    default: true
-  bridginganalyzer.bskin:
     default: true

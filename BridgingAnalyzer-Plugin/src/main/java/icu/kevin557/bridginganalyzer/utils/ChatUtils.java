@@ -7,6 +7,6 @@ public class ChatUtils
 {
     public static void sendMessage(CommandSender receiver, String message)
     {
-        receiver.sendMessage(I18n.format("prefix") + " " + message);
+        receiver.sendMessage(I18n.format("prefix") + message);
     }
 }
