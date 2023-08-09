@@ -33,7 +33,7 @@ public class I18n
         }
         catch (IOException e)
         {
-            Logger.warning("Failed to load the translation file: %s", e.toString());
+            Logger.warning("Failed to load the translation file: %s", e.getMessage());
         }
     }
 

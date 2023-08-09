@@ -64,7 +64,7 @@ public class EditorManager
             }
             catch (Exception e)
             {
-               Logger.warning("Failed to load the file '%s': %s", file.getName(), e.toString());
+               Logger.warning("Failed to load the file '%s': %s", file.getName(), e.getMessage());
             }
         }
     }
@@ -111,7 +111,7 @@ public class EditorManager
         }
         catch (IOException e)
         {
-            Logger.warning("Failed to save the file '%s': %s", file.getName(), e.toString());
+            Logger.warning("Failed to save the file '%s': %s", file.getName(), e.getMessage());
         }
     }
 
