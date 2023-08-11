@@ -89,7 +89,7 @@ public class BridgingAnalyzer extends JavaPlugin
         catch (Exception e)
         {
             Logger.warning("Couldn't initialize NMS, check your server version");
-            setEnabled(false);
+            getServer().getPluginManager().disablePlugin(this);
         }
     }
 
