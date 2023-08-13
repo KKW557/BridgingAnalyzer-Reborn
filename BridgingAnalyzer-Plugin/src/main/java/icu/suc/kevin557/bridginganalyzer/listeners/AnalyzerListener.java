@@ -145,12 +145,15 @@ public class AnalyzerListener implements Listener
 
         BridgingAnalyzer.getInstance().addBlock(player, block);
 
-        Bukkit.getScheduler().runTaskLater(BridgingAnalyzer.getInstance(), () ->
+        if (BridgingAnalyzer.getInstance().settings.replenish)
         {
-            ItemStack item = e.getItemInHand().clone();
-            item.setAmount(1);
-            player.getInventory().addItem(item);
-        }, 1);
+            Bukkit.getScheduler().runTaskLater(BridgingAnalyzer.getInstance(), () ->
+            {
+                ItemStack item = e.getItemInHand().clone();
+                item.setAmount(1);
+                player.getInventory().addItem(item);
+            }, 1);
+        }
     }
 
     @EventHandler

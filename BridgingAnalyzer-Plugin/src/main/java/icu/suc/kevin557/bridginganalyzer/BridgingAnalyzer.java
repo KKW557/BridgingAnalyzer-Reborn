@@ -115,6 +115,8 @@ public class BridgingAnalyzer extends JavaPlugin
         Configuration configuration = getConfig();
         settings.noHunger = configuration.getBoolean("no-hunger", true);
         settings.clearInventory = configuration.getBoolean("clear-inventory", true);
+        settings.replenish = configuration.getBoolean("replenish", true);
+        settings.blockDrop = configuration.getBoolean("block-drop", false);
         settings.antiCover = configuration.getBoolean("anti-cover", true);
         settings.antiCoverDelay = configuration.getInt("anti-cover-delay", 10);
         settings.breakDelay = configuration.getInt("break-delay", 10);

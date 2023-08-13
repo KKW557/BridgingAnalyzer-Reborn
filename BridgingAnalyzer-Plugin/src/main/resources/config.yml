@@ -4,6 +4,12 @@ no-hunger: true
 # Should clear player's inventory.
 clear-inventory: true
 
+# Should replenish when players placed an block.
+replenish: true
+
+# Is blocks will drop items when them be destroyed?
+block-drop: false
+
 # Whether to break the cover when trigger blocks was covered.
 # Do not set the delay too short or it will make ghost blocks.
 anti-cover: true

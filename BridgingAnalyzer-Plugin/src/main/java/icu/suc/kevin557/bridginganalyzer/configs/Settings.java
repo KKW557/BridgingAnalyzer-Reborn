@@ -8,6 +8,8 @@ public class Settings
 {
     public boolean noHunger;
     public boolean clearInventory;
+    public boolean replenish;
+    public boolean blockDrop;
 
     public boolean antiCover;
     public int antiCoverDelay;

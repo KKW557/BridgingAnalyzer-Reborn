@@ -46,6 +46,7 @@ public class EditorManager
     public void load()
     {
         dir.mkdir();
+
         for (File file : FileUtils.listFiles(dir, FileFilterUtils.suffixFileFilter("yml"), null))
         {
             try
