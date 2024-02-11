@@ -1,4 +1,4 @@
-BridgingAnalyzer-Reborn is a Spigot plugin designed for bridging practice in Minecraft. It is a fork of [BridgingAnalyzer](https://github.com/SakuraKoi/BridgingAnalyzer) plugin, with added features such as customizable parameters and translation files. For the block skin: [ItemSkin](https://github.com/KKW557/ItemSkin)
+BridgingAnalyzer-Reborn is a Spigot plugin designed for bridging practice in Minecraft. It is a fork of [BridgingAnalyzer](https://github.com/SakuraKoi/BridgingAnalyzer) plugin, with added features such as customizable parameters and translation files.
 
 
 ## FAQ
@@ -7,7 +7,7 @@ BridgingAnalyzer-Reborn is a Spigot plugin designed for bridging practice in Min
   A: The settings and translations of BridgingAnalyzer-Reborn are configurable.
   
 * Q: Why there no CPS display and block skin in BridgingAnalyzer-Reborn.<br>
-  A: These will be provided as affiliated plugins.
+  A: These will be provided as affiliated plugins. [ItemSkin](https://github.com/KKW557/ItemSkin)
 
 
 ## Building
