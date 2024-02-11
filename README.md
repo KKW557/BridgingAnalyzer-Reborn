@@ -1,4 +1,4 @@
-BridgingAnalyzer-Reborn is a Spigot plugin designed for bridging practice in Minecraft. It is a fork of [BridgingAnalyzer](https://github.com/SakuraKoi/BridgingAnalyzer) plugin, with added features such as customizable parameters and translation files. 
+BridgingAnalyzer-Reborn is a Spigot plugin designed for bridging practice in Minecraft. It is a fork of [BridgingAnalyzer](https://github.com/SakuraKoi/BridgingAnalyzer) plugin, with added features such as customizable parameters and translation files. For the block skin: [ItemSkin](https://github.com/KKW557/ItemSkin)
 
 
 ## FAQ
